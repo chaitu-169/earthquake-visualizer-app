@@ -27,7 +27,7 @@ Built for the Take-Home UI Challenge.
 ## 📦 Installation
 ```bash
 # clone repository
-git clone https://github.com/your-username/earthquake-visualizer.git
+git clone https://github.com/chaitu-169/earthquake-visualizer.git
 cd earthquake-visualizer
 
 # install dependencies
