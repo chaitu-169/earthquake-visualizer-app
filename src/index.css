@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+
+/* Base styles */
+@layer base {
+  html, body, #root {
+    height: 100%;
+  }
+  body {
+    @apply bg-gray-50 text-gray-900 antialiased;
+  }
+}
+
+/* Components */
+@layer components {
+  .card {
+    @apply bg-white rounded-2xl shadow-sm border border-gray-200;
+  }
+  .section-title {
+    @apply text-lg font-semibold tracking-tight;
+  }
+}
+
+/* Scrollbar styling */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #cbd5e1 transparent;
+}
+*::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+*::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 9999px;
+}
+*::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Leaflet container */
+.leaflet-container {
+  min-height: 500px;
+  border-top: 1px solid rgb(229 231 235);
+}
+
+#map {
+  height: calc(100vh - 64px); /* full height minus header */
+}
