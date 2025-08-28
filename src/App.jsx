@@ -73,6 +73,12 @@ export default function App() {
           </select>
         </div>
       </div>
+      {!loading && !error && filteredEq.length === 0 && (
+       <div className="p-3 text-center bg-yellow-50 text-yellow-700 border-b">
+         No earthquakes recorded for this Continent.
+       </div>
+)}
+
 
       {/* Loading / Error */}
       {loading && <p className="p-4 text-center">Loading earthquakes...</p>}

@@ -4,11 +4,14 @@ A React + Tailwind CSS app that visualizes recent earthquake activity using the 
 Built for the Take-Home UI Challenge.
 
 ---
+Live Demo - https://c4l62h-5173.csb.app/
+![Preview Screenshot](./preview.png)
 
+---
 ## 🚀 Features
 - Interactive map (Leaflet + React-Leaflet).
 - Earthquake markers sized & colored by magnitude.
-- Click list items → focus map on that earthquake.
+- Click list items → focuses map on that earthquake.
 - Filter by **minimum magnitude**.
 - Filter by **continent**.
 - Responsive layout (mobile & desktop).
