@@ -42,7 +42,7 @@ npm run dev
 src/
  ├─ components/
  │   ├─ Header.jsx
- │   ├─ MapView.jsx
+ │   ├─ Mapview.jsx
  │   └─ EarthquakeList.jsx
  ├─ hooks/
  │   └─ useEarthquakes.js
